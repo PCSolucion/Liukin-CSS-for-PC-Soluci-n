@@ -950,11 +950,8 @@ textarea {
 }
 blockquote {
 	width:100%;
-	padding-left:20px;
 	padding-top:18px;
 	padding-bottom:18px;
-	padding-right:18px;
-	margin:5px;
 	background-position:middle left;
 	background-repeat:no-repeat;
 	text-indent:23px;
@@ -976,7 +973,7 @@ blockquote p:before {
 blockquote p {
 	font-size:20px !important;
 	background-color:#f2f2f25e;
-	padding:12px;
+	padding:12px !important;
 	border-radius:5px;
 	color:#222222e6;
 	border-left:2px solid #f2f2f2 !important;
@@ -2832,7 +2829,7 @@ ol.wp-block-latest-comments {
 #ez-toc-container li:before{
 	display:none !important;
 }
-.review2 .adsbygoogle{
+.review2 .adsbygoogle, .notas-de-prensa2 .adsbygoogle{
 	display:none !important;
 }
 div#ez-toc-container {
@@ -2852,5 +2849,5 @@ div#ez-toc-container {
 }
 div#ez-toc-container p.ez-toc-title {
     font-weight: 500;
-    color: fff;
+    color: white;
 }
